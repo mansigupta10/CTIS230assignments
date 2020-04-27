@@ -8,6 +8,8 @@ h1 {
     font-weight: bolder;
     font-style: italic;
     font-size: 2em;
+    font-family: Georgia,Rockwell,Cambria,serif;
+
 }
 
 h2 {
@@ -16,4 +18,5 @@ h2 {
     font-size: 1.5em;
     background-color: lightblue;
     width: fit-content;
+    font-family: "Goudy Old Style","Big Caslon",Perpetua,serif;
 }
