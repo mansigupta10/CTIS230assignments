@@ -1,12 +1,13 @@
 body {
     color: black;
-    background-color: ivory;
+    background-color: mintcream;
 }
 
 h1 {
     color: navy;
     font-weight: bolder;
     font-style: italic;
+    font-size: 2em;
 }
 
 h2 {
