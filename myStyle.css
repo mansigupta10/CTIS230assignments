@@ -20,3 +20,29 @@ h2 {
     width: fit-content;
     font-family: "Goudy Old Style","Big Caslon",Perpetua,serif;
 }
+
+h2 strong {
+    background-color: lightblue;
+}
+
+a {
+    font-size: 1em;
+}
+
+a:link {
+    color:lightblue;
+}
+
+a:visited {
+    color:mediumblue;
+}
+
+a:hover {
+    color: red;
+    text-decoration: line-through;
+}
+
+a:active {
+    color: black;
+    text-decoration: overline;
+}
