@@ -58,6 +58,11 @@ p.conclusion {
     font-style: italic;
 }
 
+ul {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
 a {
     font-size: 1em;
 }
@@ -84,7 +89,16 @@ img#BusyGif {
     width: 20%;
 }
 
+img#ECGLogo, img#GuilfordLogo {
+    width: 8%;
+    float: left;
+}
+
 p#BasicInfo {
     text-align: center;
     font-style: italic;
+}
+
+div.FreshmanClasses {
+    border: 1px navy
 }
