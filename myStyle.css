@@ -13,7 +13,6 @@ h1 {
 }
 
 h2 {
-    color: mediumblue;
     font-weight: bold;
     font-size: 1.5em; /*1.5 times the standard font size*/
     font-style: none;
@@ -27,11 +26,14 @@ h2 strong { /* descendant selector--it only operates when the strong tag is cont
 }
 
 h3 {
-    color: mediumblue;
     font-style: italic;
     font-size: 1.2em;
     font-family: Cambria,Rockwell,Georgia,serif;
     text-shadow: 5px 5px 5px lightblue;
+}
+
+h2, h3 {
+    color: mediumblue;
 }
 
 p {
