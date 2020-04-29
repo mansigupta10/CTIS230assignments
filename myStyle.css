@@ -43,6 +43,21 @@ p {
     font-family: "Times New Roman",Calibri,Arial,Helvetica,sans-serif;
 }
 
+p strong {
+    color: mediumblue;
+    font-size: 1.2em;
+    text-shadow: 5px 5px 5px lightblue;
+}
+
+p.intro {
+    font-weight: bold;
+}
+
+p.conclusion {
+    font-weight: bold;
+    font-style: italic;
+}
+
 a {
     font-size: 1em;
 }
@@ -63,4 +78,8 @@ a:hover {
 a:active {
     color: black;
     text-decoration: overline;
+}
+
+img#BusyGif {
+    width: 20%
 }
