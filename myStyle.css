@@ -26,6 +26,21 @@ h2 strong { /* descendant selector--it only operates when the strong tag is cont
     background-color: lightblue;
 }
 
+h3 {
+    color: mediumblue;
+    font-style: italic;
+    font-size: 1.2em;
+    font-family: Cambria,Rockwell,Georgia,serif;
+    text-shadow: 5px 5px 5px lightblue;
+}
+
+p {
+    color: black;
+    font-style: none;
+    font-size: 1em;
+    font-family: "Times New Roman",Calibri,Arial,Helvetica,sans-serif;
+}
+
 a {
     font-size: 1em;
 }
