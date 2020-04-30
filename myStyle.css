@@ -1,7 +1,9 @@
-body { /*element selector--affects everything under this rule, unless another rule overrides it*/
+body { 
     color: black;
     background-color: mintcream;
     padding: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 h1 {
@@ -15,11 +17,12 @@ h1 {
 
 h2 {
     font-weight: bold;
-    font-size: 1.5em; /*1.5 times the standard font size*/
+    font-size: 1.7em; 
     font-style: normal;
     background-color: lightblue;
     width: fit-content;
     font-family: "Goudy Old Style","Big Caslon",Perpetua,serif;
+    margin-left: 2%;
 }
 
 h2 strong { /* descendant selector--it only operates when the strong tag is contained within the h2 tag */
@@ -28,9 +31,10 @@ h2 strong { /* descendant selector--it only operates when the strong tag is cont
 
 h3 strong {
     font-style: italic;
-    font-size: 1.1em;
+    font-size: 1.25em;
     font-family: Cambria,Rockwell,Georgia,serif;
     text-shadow: 5px 5px 5px lightblue;
+    margin-left: 2%;
 }
 
 h2, h3 strong{
@@ -40,17 +44,21 @@ h2, h3 strong{
 p {
     color: black;
     font-style: normal;
-    font-size: 1em;
-    font-family: "Times New Roman",Calibri,Arial,Helvetica,sans-serif;
+    font-size: 1.19em;
+    font-family: Garamond,"Big Caslon",Cambria,serif;
+    margin-left:0.7em;
 }
 
 p strong {
     color: mediumblue;
     font-size: 1.3em;
     text-shadow: 5px 5px 5px lightblue;
+    margin-left: 0.3em
 }
 
 p.intro {
+    margin-left: 2%;
+    margin-right: 2%;
     font-weight: bold;
 }
 
@@ -60,18 +68,38 @@ p.aboutme {
 }
 
 p.conclusion {
+    margin-left: 2%;
+    margin-right: 2%;
     font-weight: bold;
-    font-style: italic;
+    font-style: normal;
 }
 
 ul {
     margin-top: 0.2em;
-    margin-bottom: 0.2em;
+    font-size: 1.17em;
+    font-family: Garamond,"Big Caslon",Cambria,serif;
+}
+
+dl {
+    margin-left: 2.2%;
+    margin-top: 0.2em;
+    margin-bottom: 3em;
+    font-size: 1.17em;
+    font-family: Garamond,"Big Caslon",Cambria,serif;
+}
+
+ol {
+    margin-left: 34%;
+    margin-top: 0.2em;
+    margin-bottom: 3em;
+    font-size: 1.17em;
+    font-family: Garamond,"Big Caslon",Cambria,serif;
 }
 
 a {
-    font-size: 1em;
+    font-size: 1.12em;
     text-decoration: none;
+    font-family: "Goudy Old Style","Big Caslon",Perpetua,serif;
 }
 
 a:link {
@@ -84,7 +112,7 @@ a:visited {
 
 a:hover {
     color: white;
-    text-decoration: line-through;
+    text-decoration: underline overline;
 }
 
 a:active {
@@ -151,8 +179,6 @@ header {
     justify-content: center;
     align-items: center;
     background-color: navy;
-    margin-left: 5%;
-    margin-right: 5%;
     border-radius: 15px 15px 15px 15px;
     color: white;
     font-style: normal;
@@ -174,12 +200,12 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: navy;
-    margin-left: 5%;
-    margin-right: 5%;
     border-radius: 15px 15px 15px 15px;
     font-style: normal;
     font-size: 1em;
-    padding: 0.5em;
+    padding-top: 1.35em;
+    padding-bottom: 0.55em;
+    padding-right: 0.5em;
     font-family: Cambria,Rockwell,Georgia,serif;
 }
 
@@ -188,6 +214,11 @@ li.footer {
     color: white;
     font-size: 0.8em;
     align-items: center;
-    vertical-align: top;
     text-align: center;
+    margin-top: 0.5%;
+}
+
+p.footer {
+    height: 100px;
+    margin-top: 20px;
 }
