@@ -16,7 +16,7 @@ h1 {
 h2 {
     font-weight: bold;
     font-size: 1.5em; /*1.5 times the standard font size*/
-    font-style: none;
+    font-style: normal;
     background-color: lightblue;
     width: fit-content;
     font-family: "Goudy Old Style","Big Caslon",Perpetua,serif;
@@ -39,7 +39,7 @@ h2, h3 strong{
 
 p {
     color: black;
-    font-style: none;
+    font-style: normal;
     font-size: 1em;
     font-family: "Times New Roman",Calibri,Arial,Helvetica,sans-serif;
 }
@@ -155,7 +155,7 @@ header {
     margin-right: 5%;
     border-radius: 15px 15px 15px 15px;
     color: white;
-    font-style: none;
+    font-style: normal;
     font-size: 1.1em;
     padding: 0.25em;
     font-family: Cambria,Rockwell,Georgia,serif;
@@ -177,7 +177,7 @@ footer {
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 15px 15px 15px 15px;
-    font-style: none;
+    font-style: normal;
     font-size: 1em;
     padding: 0.5em;
     font-family: Cambria,Rockwell,Georgia,serif;
