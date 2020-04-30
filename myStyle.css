@@ -54,6 +54,11 @@ p.intro {
     font-weight: bold;
 }
 
+p.aboutme {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 p.conclusion {
     font-weight: bold;
     font-style: italic;
