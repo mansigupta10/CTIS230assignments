@@ -57,6 +57,11 @@ p strong {
     margin-left: 0.3em
 }
 
+p.stats {
+    text-align: center;
+    margin-top: 3%;
+}
+
 p.intro {
     margin-left: 2%;
     margin-right: 4%;
@@ -79,6 +84,17 @@ ul {
     margin-top: 0.2em;
     font-size: 1.17em;
     font-family: Garamond,"Big Caslon",Cambria,serif;
+}
+
+table {
+    margin-left: 2%;
+    margin-right: 4%;
+}
+
+tr {
+    font-size: 1.17em;
+    font-family: Garamond,"Big Caslon",Cambria,serif;
+    text-align: center;
 }
 
 dl {
