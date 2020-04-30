@@ -60,6 +60,8 @@ p strong {
 p.stats {
     text-align: center;
     margin-top: 3%;
+    margin-right: 27%;
+    margin-left: 23%;
 }
 
 p.intro {
@@ -87,14 +89,17 @@ ul {
 }
 
 table {
-    margin-left: 2%;
-    margin-right: 4%;
+    table-layout: fixed;
+    width: 88%;
+    margin-left: 3%;
+    margin-right: 9%;
 }
 
 tr {
     font-size: 1.17em;
     font-family: Garamond,"Big Caslon",Cambria,serif;
     text-align: center;
+    vertical-align: top;
 }
 
 dl {
@@ -236,6 +241,46 @@ li.footer {
     align-items: center;
     text-align: center;
     margin-top: 0.5%;
+}
+
+li.GPA {
+    list-style-type: none;
+    color: black;
+    font-style: normal;
+    font-size: 1em;
+    font-family: Garamond,"Big Caslon",Cambria,serif;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+li.ACT {
+    list-style-type: none;
+    color: black;
+    font-style: normal;
+    font-size: 1em;
+    font-family: Garamond,"Big Caslon",Cambria,serif;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+li.AP {
+    list-style-type: none;
+    color: black;
+    font-style: normal;
+    font-size: 1em;
+    font-family: Garamond,"Big Caslon",Cambria,serif;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+li.service {
+    list-style-type: none;
+    color: black;
+    font-style: normal;
+    font-size: 1em;
+    font-family: Garamond,"Big Caslon",Cambria,serif;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 p.footer {
