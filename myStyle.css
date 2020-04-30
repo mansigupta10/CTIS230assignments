@@ -44,7 +44,7 @@ h2, h3 strong{
 p {
     color: black;
     font-style: normal;
-    font-size: 1.19em;
+    font-size: 1.2em;
     font-family: Garamond,"Big Caslon",Cambria,serif;
     margin-left: 1em;
     margin-right: 1.7em;
@@ -84,19 +84,19 @@ p.conclusion {
 
 ul {
     margin-top: 0.2em;
-    font-size: 1.17em;
+    font-size: 1.2em;
     font-family: Garamond,"Big Caslon",Cambria,serif;
 }
 
 table {
     table-layout: fixed;
     width: 88%;
-    margin-left: 3%;
+    margin-left: 2.5%;
     margin-right: 9%;
 }
 
 tr {
-    font-size: 1.17em;
+    font-size: 1.2em;
     font-family: Garamond,"Big Caslon",Cambria,serif;
     text-align: center;
     vertical-align: top;
@@ -107,15 +107,15 @@ dl {
     margin-right: 5%;
     margin-top: 0.2em;
     margin-bottom: 3em;
-    font-size: 1.17em;
+    font-size: 1.2em;
     font-family: Garamond,"Big Caslon",Cambria,serif;
 }
 
 ol {
-    margin-left: 34%;
+    margin-left: 33%;
     margin-top: 0.2em;
     margin-bottom: 3em;
-    font-size: 1.17em;
+    font-size: 1.2em;
     font-family: Garamond,"Big Caslon",Cambria,serif;
 }
 
