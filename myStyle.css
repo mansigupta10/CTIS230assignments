@@ -100,6 +100,46 @@ img#ECGLogo {
     padding: 0.2em;
 }
 
+img#LeadershipGif {
+    width: 16%;
+    float: right;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 0.2em;
+}
+
+img#ServiceGif {
+    width: 19.5%;
+    float: right;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 0.2em;
+}
+
+img#ScholarGif {
+    width: 19%;
+    float: right;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 0.2em;
+}
+
+img#ECGlogo {
+    width: 12%;
+    float: right;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 0.2em;
+}
+
+img#Guilfordlogo {
+    width: 12%;
+    float: right;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 0.2em;
+}
+
 p#BasicInfo {
     text-align: center;
     font-style: italic;
