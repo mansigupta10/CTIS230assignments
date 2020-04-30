@@ -46,7 +46,7 @@ p {
     font-style: normal;
     font-size: 1.19em;
     font-family: Garamond,"Big Caslon",Cambria,serif;
-    margin-left:0.7em;
+    margin-left:0.9em;
 }
 
 p strong {
@@ -171,6 +171,8 @@ img#Guilfordlogo {
 p#BasicInfo {
     text-align: center;
     font-style: italic;
+    font-family: "Times New Roman",Rockwell,Georgia,serif;
+    font-size: 1em;
 }
 
 header {
@@ -205,8 +207,8 @@ footer {
     font-size: 1em;
     padding-top: 1.35em;
     padding-bottom: 0.55em;
-    padding-right: 0.5em;
-    font-family: Cambria,Rockwell,Georgia,serif;
+    padding-right: 1.7em;
+    font-family: Garamond,"Big Caslon",Cambria,serif;
 }
 
 li.footer {
@@ -219,6 +221,6 @@ li.footer {
 }
 
 p.footer {
-    height: 100px;
-    margin-top: 20px;
+    height: 10px;
+    margin-top: 10px;
 }
