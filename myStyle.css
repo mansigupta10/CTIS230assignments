@@ -22,7 +22,7 @@ h2 {
     background-color: lightblue;
     width: fit-content;
     font-family: "Goudy Old Style","Big Caslon",Perpetua,serif;
-    margin-left: 2%;
+    margin-left: 1.7%;
 }
 
 h2 strong { /* descendant selector--it only operates when the strong tag is contained within the h2 tag */
@@ -34,7 +34,7 @@ h3 strong {
     font-size: 1.25em;
     font-family: Cambria,Rockwell,Georgia,serif;
     text-shadow: 5px 5px 5px lightblue;
-    margin-left: 2%;
+    margin-left: 1.7%;
 }
 
 h2, h3 strong{
@@ -46,7 +46,8 @@ p {
     font-style: normal;
     font-size: 1.19em;
     font-family: Garamond,"Big Caslon",Cambria,serif;
-    margin-left:0.9em;
+    margin-left: 1em;
+    margin-right: 1.7em;
 }
 
 p strong {
@@ -58,18 +59,18 @@ p strong {
 
 p.intro {
     margin-left: 2%;
-    margin-right: 2%;
+    margin-right: 4%;
     font-weight: bold;
 }
 
 p.aboutme {
     margin-left: 2%;
-    margin-right: 2%;
+    margin-right: 4%;
 }
 
 p.conclusion {
     margin-left: 2%;
-    margin-right: 2%;
+    margin-right: 4%;
     font-weight: bold;
     font-style: normal;
 }
@@ -82,6 +83,7 @@ ul {
 
 dl {
     margin-left: 2.2%;
+    margin-right: 5%;
     margin-top: 0.2em;
     margin-bottom: 3em;
     font-size: 1.17em;
