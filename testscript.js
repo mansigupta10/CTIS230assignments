@@ -263,5 +263,5 @@ textentry.addEventListener("change", onChange);
 
 function onChange() {  
     newtext = myinput.value;  
-    otheritem.innerHTML = newtext;  
+    thirditem.innerHTML = newtext;  
 }

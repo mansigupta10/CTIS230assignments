@@ -303,3 +303,18 @@ button#thebutton, button#anotherbutton, button#resetbutton{
     margin-top: 0.1em;
     margin-bottom: 0.1em;
 }
+
+input#myinput {
+    font-size: 1.2em;
+    padding-top: 5px;
+    line-height: 0.5em;
+    color: black;
+    font-family: Garamond,"Big Caslon",Cambria,serif;
+    margin: 1em;
+    width: 275px;
+    height: 15px;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
