@@ -5,7 +5,7 @@ myitem.addEventListener("mouseout", onMouseOut);
 
 function onClick() {
     myitem.style.color = "green";
-    myitem.style.fontSize = "1.5em";
+    myitem.style.fontSize = "1.4em";
 }
 
 function onMouseOut() {
@@ -16,10 +16,10 @@ function onMouseOut() {
 firstbutton = document.getElementById("thebutton");  
 otheritem = document.getElementById("buttontest");
 
-thebutton.addEventListener("click", onButtonClick);
+firstbutton.addEventListener("click", onButtonClick);
 
 function onButtonClick() {  
-    otheritem.style.color = "red";  
+    otheritem.style.color = "red"; 
 }
 
 textentry = document.getElementById("myinput");  
@@ -30,3 +30,19 @@ function onChange() {
     otheritem.innerHTML = newtext;  
 }
 
+secondbutton = document.getElementById("anotherbutton");  
+anotheritem = document.getElementById("anotherbuttontest");
+
+secondbutton.addEventListener("click", onSecondButtonClick);
+
+function onSecondButtonClick() {  
+    anotheritem.style.color = "blue"; 
+}
+
+resetbutton = document.getElementById("resetbutton");
+resetbutton.addEventListener("click", onButtonClickReset);
+
+function onButtonClickReset() {
+    otheritem.style.color = "";
+    anotheritem.style.color = "";
+}
