@@ -13,7 +13,7 @@ function onMouseOut() {
     myitem.style.fontSize = "";
 }
 
-thebutton = document.getElementById("thebutton");  
+firstbutton = document.getElementById("thebutton");  
 otheritem = document.getElementById("buttontest");
 
 thebutton.addEventListener("click", onButtonClick);
