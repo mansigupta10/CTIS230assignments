@@ -1,19 +1,19 @@
-myitem = document.getElementById("firsttest");
+myitem = document.getElementById("firsttest"); //identification of the li item in the Statistics html document
 
-myitem.addEventListener("click", onClick);
-myitem.addEventListener("mouseout", onMouseOut);
+myitem.addEventListener("click", onClick); //adding the item so that when it is clicked it will perform another action
+myitem.addEventListener("mouseout", onMouseOut); //adding the item so when the mouse moves away from the item it will perform a specific action
 
 function onClick() {
-    myitem.style.color = "green";
-    myitem.style.fontSize = "1.4em";
+    myitem.style.color = "green"; //when the item is clicked the color of the li item will turn green
+    myitem.style.fontSize = "1.4em"; //when the item is clicked the size of the same li item will change
 }
 
 function onMouseOut() {
-    myitem.style.color = "";
-    myitem.style.fontSize = "";
+    myitem.style.color = ""; //when the moves away from the li item it will go back to its original color based off the style sheet
+    myitem.style.fontSize = ""; //when the moves away from the li item it will go back to its original font size based off the style sheet
 }
 
-firstbutton = document.getElementById("thebutton");  
+firstbutton = document.getElementById("thebutton");
 otheritem = document.getElementById("buttontest");
 thirditem = document.getElementById("thirdbutton");
 item4 = document.getElementById("classfour");
@@ -48,8 +48,8 @@ item32 = document.getElementById("class32");
 
 firstbutton.addEventListener("click", onButtonClick);
 
-function onButtonClick() {  
-    otheritem.style.color = "red"; 
+function onButtonClick() {
+    otheritem.style.color = "red";
     otheritem.innerHTML = "Grade: A";
     anotheritem.style.color = "red";
     anotheritem.innerHTML = "Grade: A";
@@ -115,75 +115,75 @@ function onButtonClick() {
     item32.innerHTML = "Grade: Not Calculated Yet";
 }
 
-secondbutton = document.getElementById("anotherbutton");  
+secondbutton = document.getElementById("anotherbutton");
 anotheritem = document.getElementById("anotherbuttontest");
 
 secondbutton.addEventListener("click", onSecondButtonClick);
 
-function onSecondButtonClick() {  
-    anotheritem.style.color = "blue"; 
+function onSecondButtonClick() {
+    anotheritem.style.color = "blue";
     anotheritem.innerHTML = "Teacher: Mrs. Rebecca Johnson-Kaserman";
-    otheritem.style.color = "blue"; 
+    otheritem.style.color = "blue";
     otheritem.innerHTML = "Teacher: Mr. Bryan Haywood";
-    thirditem.style.color = "blue"; 
+    thirditem.style.color = "blue";
     thirditem.innerHTML = "Teacher: Ms. Alison Welch";
     item4.style.color = "blue";
     item4.innerHTML = "Teacher: Mr. Zane Chamra"
-    item5.style.color = "blue"; 
+    item5.style.color = "blue";
     item5.innerHTML = "Teacher: Ms. Alison Welch";
-    item6.style.color = "blue"; 
+    item6.style.color = "blue";
     item6.innerHTML = "Teacher: Mrs. Katheryn Cooper";
-    item7.style.color = "blue"; 
+    item7.style.color = "blue";
     item7.innerHTML = "Teacher: Mr. Bryan Haywood";
-    item8.style.color = "blue"; 
+    item8.style.color = "blue";
     item8.innerHTML = "Teacher: Mrs. Rebecca Johnson-Kaserman";
-    item9.style.color = "blue"; 
+    item9.style.color = "blue";
     item9.innerHTML = "Teacher: Mrs. Katheryn Cooper";
-    item10.style.color = "blue"; 
+    item10.style.color = "blue";
     item10.innerHTML = "Teacher: Mr. Morris Johnson";
-    item11.style.color = "blue"; 
+    item11.style.color = "blue";
     item11.innerHTML = "Teacher: Mr. Paul Smith";
-    item12.style.color = "blue"; 
+    item12.style.color = "blue";
     item12.innerHTML = "Teacher: Mr. Paul Smith";
-    item13.style.color = "blue"; 
+    item13.style.color = "blue";
     item13.innerHTML = "Teacher: Mrs. Katheryn Cooper";
-    item14.style.color = "blue"; 
+    item14.style.color = "blue";
     item14.innerHTML = "Teacher: Mrs. Rebecca Johnson-Kaserman";
-    item15.style.color = "blue"; 
+    item15.style.color = "blue";
     item15.innerHTML = "Teacher: Mr. Morris Johnson";
-    item16.style.color = "blue"; 
+    item16.style.color = "blue";
     item16.innerHTML = "Teacher: Ms. Alison Welch";
-    item17.style.color = "blue"; 
+    item17.style.color = "blue";
     item17.innerHTML = "Teacher: Professor Dave Millican; Lab: Professor Gail Webster";
-    item18.style.color = "blue"; 
+    item18.style.color = "blue";
     item18.innerHTML = "Teacher: Professor Ben Marlin";
-    item19.style.color = "blue"; 
+    item19.style.color = "blue";
     item19.innerHTML = "Teacher: Professor Aleks Babic";
-    item20.style.color = "blue"; 
+    item20.style.color = "blue";
     item20.innerHTML = "Teacher: Professor Daniel Castelblanco";
-    item21.style.color = "blue"; 
+    item21.style.color = "blue";
     item21.innerHTML = "Teacher: Professor Rob Whitnell; Lab: Professor Rob Whitnell";
-    item22.style.color = "blue"; 
+    item22.style.color = "blue";
     item22.innerHTML = "Teacher: Professor Jim Hood";
-    item23.style.color = "blue"; 
+    item23.style.color = "blue";
     item23.innerHTML = "Teacher: Professor Madeline Fuentes";
-    item24.style.color = "blue"; 
+    item24.style.color = "blue";
     item24.innerHTML = "Teacher: Professor Richie Zweigenhaft";
-    item25.style.color = "blue"; 
+    item25.style.color = "blue";
     item25.innerHTML = "Teacher: Professor Christine Stracey Richard";
-    item26.style.color = "blue"; 
+    item26.style.color = "blue";
     item26.innerHTML = "Teacher: Professor Michele Malotky";
-    item27.style.color = "blue"; 
+    item27.style.color = "blue";
     item27.innerHTML = "Teacher: Professor Miranda Reichhardt";
-    item28.style.color = "blue"; 
+    item28.style.color = "blue";
     item28.innerHTML = "Teacher: Professor Alfonso Abad Mancheño";
-    item29.style.color = "blue"; 
+    item29.style.color = "blue";
     item29.innerHTML = "Teacher: Professor Ken Gilmore";
-    item30.style.color = "blue"; 
+    item30.style.color = "blue";
     item30.innerHTML = "Teacher: Professor Lisa McLeod";
-    item31.style.color = "blue"; 
+    item31.style.color = "blue";
     item31.innerHTML = "Teacher: Professor Karen Spira";
-    item32.style.color = "blue"; 
+    item32.style.color = "blue";
     item32.innerHTML = "Teacher: Professor Rob Whitnell";
 }
 
@@ -208,60 +208,60 @@ function onButtonClickReset() {
     item7.innerHTML = "Honors Pre-Calculus";
     item8.style.color = "";
     item8.innerHTML = "AP World History";
-    item9.style.color = ""; 
+    item9.style.color = "";
     item9.innerHTML = "Honors Anatomy & Physiology"
-    item10.style.color = ""; 
+    item10.style.color = "";
     item10.innerHTML = "Honors Turning Points in United States History"
-    item11.style.color = ""; 
+    item11.style.color = "";
     item11.innerHTML = "AP Calculus AB"
-    item12.style.color = ""; 
+    item12.style.color = "";
     item12.innerHTML = "AP Calculus BC"
-    item13.style.color = ""; 
+    item13.style.color = "";
     item13.innerHTML = "AP Environmental Science"
-    item14.style.color = ""; 
+    item14.style.color = "";
     item14.innerHTML = "AP Psychology"
-    item15.style.color = ""; 
+    item15.style.color = "";
     item15.innerHTML = "AP United States History"
-    item16.style.color = ""; 
+    item16.style.color = "";
     item16.innerHTML = "AP English Language & Composition"
-    item17.style.color = ""; 
+    item17.style.color = "";
     item17.innerHTML = "CHEM 111: Chemical Principles"
-    item18.style.color = ""; 
+    item18.style.color = "";
     item18.innerHTML = "MATH 225: Multivariable Calculus"
-    item19.style.color = ""; 
+    item19.style.color = "";
     item19.innerHTML = "PBH 200: Epidemiology"
-    item20.style.color = ""; 
+    item20.style.color = "";
     item20.innerHTML = "SPAN 101: Communicating in Spanish I"
-    item21.style.color = ""; 
+    item21.style.color = "";
     item21.innerHTML = "CHEM 112: Chemical Prinicples II"
-    item22.style.color = ""; 
+    item22.style.color = "";
     item22.innerHTML = "ENGL 228: American Nature Writing"
-    item23.style.color = ""; 
+    item23.style.color = "";
     item23.innerHTML = "SPAN 102: Communicating in Spanish II"
-    item24.style.color = ""; 
+    item24.style.color = "";
     item24.innerHTML = "PSY 232: Introduction to Personality"
-    item25.style.color = ""; 
+    item25.style.color = "";
     item25.innerHTML = "BIO 201: Form and Function"
-    item26.style.color = ""; 
+    item26.style.color = "";
     item26.innerHTML = "BIO 203: Molecules and Cells"
-    item27.style.color = ""; 
+    item27.style.color = "";
     item27.innerHTML = "ART 104: Drawing Fundamentals"
-    item28.style.color = ""; 
+    item28.style.color = "";
     item28.innerHTML = "SPAN 201: Intermediate Spanish"
-    item29.style.color = ""; 
+    item29.style.color = "";
     item29.innerHTML = "PSCI 103: International Relations"
-    item30.style.color = ""; 
+    item30.style.color = "";
     item30.innerHTML = "PHIL 244: Bioethics"
-    item31.style.color = ""; 
+    item31.style.color = "";
     item31.innerHTML = "SPAN 202: Intermediate Conversation/Composition"
-    item32.style.color = ""; 
+    item32.style.color = "";
     item32.innerHTML = "CTIS 230: Web Design & Development"
 }
 
-textentry = document.getElementById("myinput");  
+textentry = document.getElementById("myinput");
 textentry.addEventListener("change", onChange);
 
-function onChange() {  
-    newtext = myinput.value;  
-    thirditem.innerHTML = newtext;  
+function onChange() {
+    newtext = myinput.value;
+    thirditem.innerHTML = newtext;
 }
