@@ -13,6 +13,7 @@ h1 {
     font-size: 2em;
     font-family: Georgia,Rockwell,Cambria,serif;
     text-align: center;
+    margin-top: 1.3em;
 }
 
 h2 {
@@ -48,6 +49,7 @@ p {
     font-family: Garamond,"Big Caslon",Cambria,serif;
     margin-left: 1em;
     margin-right: 1.7em;
+    line-height: 1.6em;
 }
 
 p strong {
@@ -64,11 +66,11 @@ span.stats {
     font-family: Garamond,"Big Caslon",Cambria,serif;
     margin-left: 0.3em;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 5%;
     margin-left: 39%;
 }
 
-p.intro {
+p#intro {
     margin-left: 2%;
     margin-right: 4%;
     font-weight: bold;
@@ -79,17 +81,19 @@ p.aboutme {
     margin-right: 4%;
 }
 
-p.conclusion {
+p#conclusion {
     margin-left: 2%;
     margin-right: 4%;
     font-weight: bold;
     font-style: normal;
+    margin-bottom: 2.5em;
 }
 
 ul {
     margin-top: 0.2em;
     font-size: 1.2em;
     font-family: Garamond,"Big Caslon",Cambria,serif;
+    line-height: 1.5em;
 }
 
 table {
@@ -113,6 +117,7 @@ dl {
     margin-bottom: 3em;
     font-size: 1.2em;
     font-family: Garamond,"Big Caslon",Cambria,serif;
+    line-height: 1.6em;
 }
 
 ol {
@@ -121,6 +126,7 @@ ol {
     margin-bottom: 3em;
     font-size: 1.2em;
     font-family: Garamond,"Big Caslon",Cambria,serif;
+    line-height: 1.5em;
 }
 
 a {
@@ -156,7 +162,7 @@ img#ECGLogo {
 }
 
 img#Leadership {
-    width: 19.5%;
+    width: 20.5%;
     float: right;
     margin-left: 1%;
     margin-right: 1%;
@@ -165,7 +171,7 @@ img#Leadership {
 }
 
 img#Service {
-    width: 16%;
+    width: 18%;
     float: right;
     margin-left: 1%;
     margin-right: 1%;
@@ -174,7 +180,7 @@ img#Service {
 }
 
 img#Scholar {
-    width: 15.5%;
+    width: 17.5%;
     float: right;
     margin-left: 1%;
     margin-right: 1%;
@@ -247,6 +253,7 @@ li.footer {
     align-items: center;
     text-align: center;
     margin-top: 0.5%;
+    line-height: 1em;
 }
 
 li.ACT, li.AP, li.service, li.GPA {
@@ -257,6 +264,11 @@ li.ACT, li.AP, li.service, li.GPA {
     font-family: Garamond,"Big Caslon",Cambria,serif;
     margin-left: 2%;
     margin-right: 2%;
+    line-height: 1.4em;
+}
+
+td {
+    line-height: 1.4em;
 }
 
 p.footer {
