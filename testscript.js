@@ -13,6 +13,7 @@ function onMouseOut() {
     myitem.style.fontSize = ""; //when the moves away from the li item it will go back to its original font size based off the style sheet
 }
 
+//all the code below identifies the item that the buttons will control
 firstbutton = document.getElementById("thebutton");
 otheritem = document.getElementById("buttontest");
 thirditem = document.getElementById("thirdbutton");
@@ -46,8 +47,9 @@ item30 = document.getElementById("class30");
 item31 = document.getElementById("class31");
 item32 = document.getElementById("class32");
 
-firstbutton.addEventListener("click", onButtonClick);
+firstbutton.addEventListener("click", onButtonClick); //identifies the first button
 
+//when the button is clicked all of the items will turn red and show the grade I recieved
 function onButtonClick() {
     otheritem.style.color = "red";
     otheritem.innerHTML = "Grade: A";
@@ -115,11 +117,12 @@ function onButtonClick() {
     item32.innerHTML = "Grade: Not Calculated Yet";
 }
 
-secondbutton = document.getElementById("anotherbutton");
+secondbutton = document.getElementById("anotherbutton"); //identifies the second button
 anotheritem = document.getElementById("anotherbuttontest");
 
-secondbutton.addEventListener("click", onSecondButtonClick);
+secondbutton.addEventListener("click", onSecondButtonClick); //adds the function of the second button being clicked 
 
+//when the second button is clicked all of the items will turn blue and show the teacher I had
 function onSecondButtonClick() {
     anotheritem.style.color = "blue";
     anotheritem.innerHTML = "Teacher: Mrs. Rebecca Johnson-Kaserman";
@@ -188,9 +191,10 @@ function onSecondButtonClick() {
 }
 
 
-resetbutton = document.getElementById("resetbutton");
-resetbutton.addEventListener("click", onButtonClickReset);
+resetbutton = document.getElementById("resetbutton"); //identifies the reset button 
+resetbutton.addEventListener("click", onButtonClickReset); //identifies the clicking function for the button
 
+//when the button is clicked the color will go back to back and the text will go back to the classes
 function onButtonClickReset() {
     otheritem.style.color = "";
     anotheritem.style.color = "";
@@ -258,9 +262,10 @@ function onButtonClickReset() {
     item32.innerHTML = "CTIS 230: Web Design & Development"
 }
 
-textentry = document.getElementById("myinput");
-textentry.addEventListener("change", onChange);
+textentry = document.getElementById("myinput"); //identifies a text entry and adds a text box on the web page
+textentry.addEventListener("change", onChange); //identifies the function that when something is typed in the box another thing will change
 
+//when something is typed in the box the text of the "thirditem" while change to what is entered in the textbox
 function onChange() {
     newtext = myinput.value;
     thirditem.innerHTML = newtext;
