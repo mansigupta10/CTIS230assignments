@@ -155,28 +155,30 @@ img#ECGLogo {
     padding: 0.2em;
 }
 
-img#LeadershipGif {
-    width: 16%;
-    float: right;
-    margin-left: 1%;
-    margin-right: 1%;
-    padding: 0.2em;
-}
-
-img#ServiceGif {
+img#Leadership {
     width: 19.5%;
     float: right;
     margin-left: 1%;
     margin-right: 1%;
-    padding: 0.2em;
+    margin-top: 0em;
+    padding: 0.1em;
 }
 
-img#ScholarGif {
-    width: 19%;
+img#Service {
+    width: 16%;
     float: right;
     margin-left: 1%;
     margin-right: 1%;
-    padding: 0.2em;
+    padding: 0.1em;
+    margin-top: 0em;
+}
+
+img#Scholar {
+    width: 15.5%;
+    float: right;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 0.1em;
 }
 
 img#ECGlogo {
