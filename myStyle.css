@@ -361,14 +361,14 @@ input#myinput {
 
 @media screen and (orientation: landscape) {
     img#Leadership {
-        width: 37%;
+        width: 50%;
         padding: 0em;
     }
     img#Scholar, img#Service {
-        width: 32%;
+        width: 50%;
     }
     img#Guilfordlogo, img#ECGlogo {
-        width: 32%;
+        width: 50%;
         margin-right: 0%;
     }
 }
