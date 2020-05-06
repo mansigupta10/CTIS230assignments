@@ -306,3 +306,10 @@ input#myinput {
     margin-top: 0.1em;
     margin-bottom: 0.1em;
 }
+
+/*use a media query*/
+@media (max-width: 750px) {
+    body {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
