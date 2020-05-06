@@ -322,7 +322,10 @@ input#myinput {
         padding-left: 0em;
         margin-left: 0em;
     }
-    div.nav{
-        width: 200%;
+    div.nav {
+        width: 100%;
+    }
+    header {
+        font-size: 0.6em;
     }
 }
