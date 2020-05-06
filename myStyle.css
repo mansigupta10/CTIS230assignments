@@ -350,6 +350,13 @@ input#myinput {
         width: 40%;
         padding: 0em;
     }
+    h3 {
+        margin-left: 3%;
+    }
+    dl {
+        margin-left: 4%;
+        margin-right: 5%;
+    }
 }
 
 @media screen and (orientation: landscape) {
