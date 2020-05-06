@@ -317,4 +317,12 @@ input#myinput {
     span.stats {
         margin-left: 3.5em;
     }
+    img#ECGLogo {
+        width: 38%;
+        padding-left: 0em;
+        margin-left: 0em;
+    }
+    div.nav{
+        width: 200%;
+    }
 }
