@@ -315,7 +315,7 @@ input#myinput {
 
 @media screen and (orientation: portrait) {
     span.stats {
-        margin-left: 3.7em;
+        margin-left: 4em;
     }
     img#ECGLogo {
         width: 38%;
