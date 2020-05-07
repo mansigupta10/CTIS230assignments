@@ -270,3 +270,25 @@ function onChange() {
     newtext = myinput.value;
     thirditem.innerHTML = newtext;
 }
+
+theImgDiv = document.getElementById("image");
+theImage = document.getElementById("Hobbies");
+theBigImage = document.getElementById("largeview");
+
+theImgDiv.addEventListener("click", makeBigImage);
+theBigImage.addEventListener("click", hidetheImage);
+theBigImage.innerHTML = "";
+
+function hideBigImage() {
+    theBigImage.classList.add("dontshow");
+    theBigImage.innerHTML = "";
+}
+
+function makeBigImage() {
+    if (theBigImage.innerHTML == "") {
+        bigimage = document.createElement("img");
+        bigimage.src = "images/hobbies.jpg";
+        theBigImage.appendChild(bigimage);
+        theBigImage.classList.remove("dontshow");
+    }
+}
