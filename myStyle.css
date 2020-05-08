@@ -187,11 +187,11 @@ img#Scholar {
     padding: 0.1em;
 }
 
-img#Hobbies {
-    width: 5%;
+img#Classes {
+    width: 10%;
     float: right;
     margin-left: 1%;
-    margin-right: 7%;
+    margin-right: 5%;
     padding: 0.1em;
     margin-top: 0em;
 }
@@ -392,3 +392,4 @@ input#myinput {
         width: 100%;
         display: block;
     }
+}

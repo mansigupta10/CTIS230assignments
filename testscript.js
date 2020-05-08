@@ -272,14 +272,14 @@ function onChange() {
 }
 
 theImgDiv = document.getElementById("image");
-theImage = document.getElementById("Hobbies");
+theImage = document.getElementById("Classes");
 theBigImage = document.getElementById("largeview");
 
 theImgDiv.addEventListener("click", makeBigImage);
-theBigImage.addEventListener("click", hidetheImage);
 theBigImage.innerHTML = "";
+theBigImage.addEventListener("click", hideBigImage);
 
-function hideBigImage() {
+function hideBigImage () {
     theBigImage.classList.add("dontshow");
     theBigImage.innerHTML = "";
 }
@@ -287,7 +287,7 @@ function hideBigImage() {
 function makeBigImage() {
     if (theBigImage.innerHTML == "") {
         bigimage = document.createElement("img");
-        bigimage.src = "images/hobbies.jpg";
+        bigimage.src = "images/classes.jpg";
         theBigImage.appendChild(bigimage);
         theBigImage.classList.remove("dontshow");
     }
