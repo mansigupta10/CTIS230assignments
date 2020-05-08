@@ -331,6 +331,9 @@ input#myinput {
         padding-left: 0em;
         margin-left: 0em;
     }
+    header {
+        font-size: 0.6em;
+    }
     table {
         width: 100%;
         margin-left: 0%;
